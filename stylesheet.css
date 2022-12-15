@@ -1,0 +1,63 @@
+body, a {
+    font-family: monospace;
+    background: #7692FF;
+    color: #263238;
+    text-align: center;
+  }
+
+  p {
+    font-family: monospace;
+    background: #616161;
+    color: #e1f5ff;
+    text-align: middle;
+    padding: 0px 50px 0px;
+  }
+
+  h4 {
+    font-family: monospace;
+    background: #7692FF;
+    color: #7692FF;
+    text-align: middle;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #5d7dff;
+  }
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid rgb(78, 93, 113);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5%;
+}
